@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/puntos_verdes.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Puntos Verdes</title>
+</head>
+<body>
+    <header class='site-header content-header'>
+        <img src="imagenes\grupo.png" alt="" class="img_grupo">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="seguridad.html">Seguridad</a>
+            <a href="transporte.html">Transporte</a>
+            <a href="puntos_verdes.html">Puntos Verdes</a>
+            <a href="salud.html">Salud</a>
+            <a href="equipo.html">¿Quiénes somos?</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="row">
+            <h1 class="frase1">
+                Puntos Verdes según sector.
+            </h1>
+            <div class="parrafo">
+                <h1 class="parrafoexp">En este apartado se puede visualizar el mapa de peñalolén con sus respectivas areas delimitadas, al mismo tiempo con sus puntos verdes. 
+                    <br> <br> Este un poco diferente a otras secciónes de la página, es creada con My Maps, diferenciandose cuando que cuando el usuario interactua con los puntos y/o sector de Peñalolen verdes se desplega:
+                <br> <br> Nombre, descripción(en algunas situacionales), detalles de Google Maps, y la opcion de poder ver esta en la página oficiald e Google Maps
+                <br> <br> De igual manera existe la forma de visualizar el mapa en pantalla completa con el boton de la esquina superior derecha
+                <br> <br> Aqui varia el boton de aumento/disminución del zoom del mapa en la esquina inferior izquierda.   </h1>
+            </div>
+        </div>
+        <div class="mapaseg">
+            <iframe left-padding='200' width="700" height="580" src="https://www.google.com/maps/d/embed?mid=18E1_hm2jnkEwFlvvALGy1-B2IODozHxQ" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <img src="/imagenes/uai.png" alt="uai">
+        <div class="referencias">
+            <a href="https://www.penalolen.cl/" target="blank"> <img src="/imagenes/logo_peña.png" alt="logo_peña" class="logo_peña"></a>
+            <a href="https://www.carabineros.cl/" target="blank"> <img src="/imagenes/logo_cara.png" alt="logo_carabineros" class="logo_cara"></a>
+        </div>
+    </div>
+    </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
