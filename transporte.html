@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/transporte.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title> Transporte</title>
+</head>
+<body>
+    <header class='site-header content-header'>
+        <img src="imagenes\grupo.png" alt="" class="img_grupo">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="seguridad.html">Seguridad</a>
+            <a href="transporte.html">Transporte</a>
+            <a href="puntos_verdes.html">Puntos Verdes</a>
+            <a href="salud.html">Salud</a>
+            <a href="equipo.html">¿Quiénes somos?</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="row">
+            <h1 class="frase1">
+                Lineas de Metro en Peñalolén
+            </h1>
+            <div class="parrafo">
+                <h1 class="parrafoexp"> En este sector de la página puede vizualizar las lienas de metro de todo santiago.
+                    <br><br> La función de esta es poder encontrar la estación de metro mas cercana a su locación y así poder guiarse con esta hasta donde desee ir.
+                    <br><br> Cada linea esta diferenciada por un color diferente.
+                    <br><br> Para poder tener mas exactitud recomendamos al usuario ejercer un zoom al mapa, ya sea con la rueda del raton o con los botones para acercar el zoom en la esquina inferior de la pantalla.
+                    <br><br> Al acercar la pantalla podra localizar cada estación de metro marcasa con una M.
+                    <br><br> Para mayor comodidad puede usar el modo pantalla completa, ubicandose esta funcion en la esquina superior derecha del mapa. </h1>
+            </div>
+        </div>
+        <div class="mapaseg">
+            <iframe left-padding='200' width="700" height="580" style="border: 1px solid black" src="https://www.google.com/maps/d/embed?mid=17t7cd_Mf5XNKob9SCWcm-TdnYvs&hl=en_US" ></iframe>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <img src="/imagenes/uai.png" alt="uai">
+        <div class="referencias">
+            <a href="https://www.penalolen.cl/" target="blank"> <img src="/imagenes/logo_peña.png" alt="logo_peña" class="logo_peña"></a>
+            <a href="https://www.carabineros.cl/" target="blank"> <img src="/imagenes/logo_cara.png" alt="logo_carabineros" class="logo_cara"></a>
+        </div>
+    </div>
+    </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
